@@ -12,6 +12,6 @@ export default {
 		const canvas = Buffer.from(canvasB64, 'base64')
 
 		// return new Response(canvas, { headers })
-		return new Response('L1 NodΞRunr Lean Canvas is' + (canvas ? canvas.length : 'n/a'), 'bytes')
+		return new Response('L1 NodΞRunr Lean Canvas is ' + (canvas ? canvas.length : 'n/a') + ' bytes')
 	},
 } satisfies ExportedHandler<Env>
