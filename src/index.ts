@@ -14,7 +14,8 @@ export default {
 
 		/* Decode canvas. */
 		// const canvas = Buffer.from(canvasB64, 'base64')
-		const canvas = 'hello'
+		const canvas = Buffer.from('1337', 'hex')
+		// const canvas = 'hello'
 
 		// return new Response(canvas, { headers })
 		return new Response('L1 NodΞRunr Lean Canvas - ' + (canvas ? canvas.length : 'n/a'))
