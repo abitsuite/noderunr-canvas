@@ -1,5 +1,5 @@
 /* Import image data. */
-import canvasB64 from './canvasB64'
+import canvasB64 from './canvasB64.js'
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
