@@ -6,10 +6,6 @@
   "observability": {
     "enabled": true
   },
-  "assets": {
-    "directory": "./public/",
-    "binding": "ASSETS"
-  },
   "routes": [
     {
       "pattern": "canvas.layer1.run",
