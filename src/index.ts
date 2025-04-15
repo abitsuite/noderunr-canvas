@@ -6,8 +6,11 @@ export default {
 		}
 
 		// const canvas = env.ASSETS.fetch(request)
-		const canvas = env.ASSETS.fetch('canvas.png')
-		return new Response('L1 NodΞRunr Lean Canvas - ' + canvas.length)
+		const canvas = await env.ASSETS
+			.fetch('/canvas.png')
+			.catch(err => console.error(err?.message))
+
+		return new Response('L1 NodΞRunr Lean Canvas - ' + (canvas ? canvas.length : 'n/a'))
 		// return new Response(JSON.stringify({ name: "Cloudflare" }), {
         // 	headers,
       	// })
