@@ -7,7 +7,7 @@
     "enabled": true
   },
   "assets": {
-    "directory": "./assets",
+    "directory": "./public",
     "binding": "ASSETS"
   },
   "routes": [
