@@ -1,3 +1,3 @@
 # NodΞRunr Lean Canvas
 
-### https://canvas.layer1.run
+### https://canvas.L1.run
