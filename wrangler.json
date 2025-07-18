@@ -11,6 +11,10 @@
   },
   "routes": [
     {
+      "pattern": "canvas.l1.run",
+      "custom_domain": true
+    },
+    {
       "pattern": "canvas.layer1.run",
       "custom_domain": true
     }
